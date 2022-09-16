@@ -78,7 +78,7 @@ class DetailsViewController: UIViewController {
             priceLbl.text = String(price)
         }
         if let descp = self.product?.descriptionField {
-            descLbl.text = description
+            descLbl.text = descp
         }
     }
     

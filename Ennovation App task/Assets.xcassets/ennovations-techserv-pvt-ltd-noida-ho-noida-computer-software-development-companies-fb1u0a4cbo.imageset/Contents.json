@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "ennovations-techserv-pvt-ltd-noida-ho-noida-computer-software-development-companies-fb1u0a4cbo.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

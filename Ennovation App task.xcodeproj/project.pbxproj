@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42502EC529D1992A27CD3771 /* Pods_Ennovation_App_task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD42FE8CF75750C41EE6C31 /* Pods_Ennovation_App_task.framework */; };
 		58225B6928D300D80023A724 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58225B6828D300D80023A724 /* AppDelegate.swift */; };
 		58225B6B28D300D80023A724 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58225B6A28D300D80023A724 /* SceneDelegate.swift */; };
 		58225B6D28D300D80023A724 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58225B6C28D300D80023A724 /* ViewController.swift */; };
 		58225B7028D300D80023A724 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58225B6E28D300D80023A724 /* Main.storyboard */; };
 		58225B7228D300DC0023A724 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58225B7128D300DC0023A724 /* Assets.xcassets */; };
 		58225B7528D300DC0023A724 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58225B7328D300DC0023A724 /* LaunchScreen.storyboard */; };
+		58225B7D28D30CB40023A724 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58225B7C28D30CB40023A724 /* HomeViewController.swift */; };
+		58225B8228D322EA0023A724 /* ProductCollCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58225B8028D322EA0023A724 /* ProductCollCell.swift */; };
+		58225B8328D322EA0023A724 /* ProductCollCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58225B8128D322EA0023A724 /* ProductCollCell.xib */; };
+		58225B8728D332240023A724 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58225B8628D332230023A724 /* ProductModel.swift */; };
+		58225B8D28D34CC30023A724 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58225B8C28D34CC30023A724 /* DetailsViewController.swift */; };
+		58EC538A28D4565C00712059 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 58EC538928D4565C00712059 /* Algorithms */; };
+		58EC538E28D46A7100712059 /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EC538D28D46A7100712059 /* CartTableViewCell.swift */; };
+		58EC539028D46BB500712059 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EC538F28D46BB500712059 /* CartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F8712C862084B208EB31682 /* Pods-Ennovation App task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ennovation App task.debug.xcconfig"; path = "Target Support Files/Pods-Ennovation App task/Pods-Ennovation App task.debug.xcconfig"; sourceTree = "<group>"; };
 		58225B6528D300D80023A724 /* Ennovation App task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ennovation App task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58225B6828D300D80023A724 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58225B6A28D300D80023A724 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,15 @@
 		58225B7128D300DC0023A724 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58225B7428D300DC0023A724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58225B7628D300DC0023A724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58225B7C28D30CB40023A724 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		58225B8028D322EA0023A724 /* ProductCollCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollCell.swift; sourceTree = "<group>"; };
+		58225B8128D322EA0023A724 /* ProductCollCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCollCell.xib; sourceTree = "<group>"; };
+		58225B8628D332230023A724 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		58225B8C28D34CC30023A724 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		58EC538D28D46A7100712059 /* CartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
+		58EC538F28D46BB500712059 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		ABD42FE8CF75750C41EE6C31 /* Pods_Ennovation_App_task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ennovation_App_task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7BF91055B58CD8E7D50C026 /* Pods-Ennovation App task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ennovation App task.release.xcconfig"; path = "Target Support Files/Pods-Ennovation App task/Pods-Ennovation App task.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +50,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58EC538A28D4565C00712059 /* Algorithms in Frameworks */,
+				42502EC529D1992A27CD3771 /* Pods_Ennovation_App_task.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +63,8 @@
 			children = (
 				58225B6728D300D80023A724 /* Ennovation App task */,
 				58225B6628D300D80023A724 /* Products */,
+				9F63E9D3DEB9988A557897BC /* Pods */,
+				ED594AB3580BC232C34CC935 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +79,71 @@
 		58225B6728D300D80023A724 /* Ennovation App task */ = {
 			isa = PBXGroup;
 			children = (
+				58EC538C28D46A4A00712059 /* Cart */,
+				58225B8528D332030023A724 /* Product */,
 				58225B6828D300D80023A724 /* AppDelegate.swift */,
 				58225B6A28D300D80023A724 /* SceneDelegate.swift */,
 				58225B6C28D300D80023A724 /* ViewController.swift */,
 				58225B6E28D300D80023A724 /* Main.storyboard */,
+				58225B8C28D34CC30023A724 /* DetailsViewController.swift */,
 				58225B7128D300DC0023A724 /* Assets.xcassets */,
 				58225B7328D300DC0023A724 /* LaunchScreen.storyboard */,
 				58225B7628D300DC0023A724 /* Info.plist */,
 			);
 			path = "Ennovation App task";
+			sourceTree = "<group>";
+		};
+		58225B8428D322F40023A724 /* Product Cell */ = {
+			isa = PBXGroup;
+			children = (
+				58225B8028D322EA0023A724 /* ProductCollCell.swift */,
+				58225B8128D322EA0023A724 /* ProductCollCell.xib */,
+			);
+			path = "Product Cell";
+			sourceTree = "<group>";
+		};
+		58225B8528D332030023A724 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				58EC538B28D45A7C00712059 /* Data Model */,
+				58225B8428D322F40023A724 /* Product Cell */,
+				58225B7C28D30CB40023A724 /* HomeViewController.swift */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		58EC538B28D45A7C00712059 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				58225B8628D332230023A724 /* ProductModel.swift */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		58EC538C28D46A4A00712059 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				58EC538F28D46BB500712059 /* CartViewController.swift */,
+				58EC538D28D46A7100712059 /* CartTableViewCell.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		9F63E9D3DEB9988A557897BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F8712C862084B208EB31682 /* Pods-Ennovation App task.debug.xcconfig */,
+				F7BF91055B58CD8E7D50C026 /* Pods-Ennovation App task.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ED594AB3580BC232C34CC935 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABD42FE8CF75750C41EE6C31 /* Pods_Ennovation_App_task.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +153,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58225B7928D300DC0023A724 /* Build configuration list for PBXNativeTarget "Ennovation App task" */;
 			buildPhases = (
+				C784EC4D6D5E1A08AEA6A653 /* [CP] Check Pods Manifest.lock */,
 				58225B6128D300D80023A724 /* Sources */,
 				58225B6228D300D80023A724 /* Frameworks */,
 				58225B6328D300D80023A724 /* Resources */,
+				885F02B9C57C8A116358E151 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Ennovation App task";
+			packageProductDependencies = (
+				58EC538928D4565C00712059 /* Algorithms */,
+			);
 			productName = "Ennovation App task";
 			productReference = 58225B6528D300D80023A724 /* Ennovation App task.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +195,9 @@
 				Base,
 			);
 			mainGroup = 58225B5C28D300D80023A724;
+			packageReferences = (
+				58EC538828D4565C00712059 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+			);
 			productRefGroup = 58225B6628D300D80023A724 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,10 +215,53 @@
 				58225B7528D300DC0023A724 /* LaunchScreen.storyboard in Resources */,
 				58225B7228D300DC0023A724 /* Assets.xcassets in Resources */,
 				58225B7028D300D80023A724 /* Main.storyboard in Resources */,
+				58225B8328D322EA0023A724 /* ProductCollCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		885F02B9C57C8A116358E151 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ennovation App task/Pods-Ennovation App task-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ennovation App task/Pods-Ennovation App task-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ennovation App task/Pods-Ennovation App task-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C784EC4D6D5E1A08AEA6A653 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ennovation App task-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		58225B6128D300D80023A724 /* Sources */ = {
@@ -139,8 +269,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				58225B6D28D300D80023A724 /* ViewController.swift in Sources */,
+				58225B8728D332240023A724 /* ProductModel.swift in Sources */,
+				58225B8228D322EA0023A724 /* ProductCollCell.swift in Sources */,
+				58EC538E28D46A7100712059 /* CartTableViewCell.swift in Sources */,
 				58225B6928D300D80023A724 /* AppDelegate.swift in Sources */,
+				58225B8D28D34CC30023A724 /* DetailsViewController.swift in Sources */,
 				58225B6B28D300D80023A724 /* SceneDelegate.swift in Sources */,
+				58EC539028D46BB500712059 /* CartViewController.swift in Sources */,
+				58225B7D28D30CB40023A724 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +418,7 @@
 		};
 		58225B7A28D300DC0023A724 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F8712C862084B208EB31682 /* Pods-Ennovation App task.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -309,6 +446,7 @@
 		};
 		58225B7B28D300DC0023A724 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7BF91055B58CD8E7D50C026 /* Pods-Ennovation App task.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -356,6 +494,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		58EC538828D4565C00712059 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		58EC538928D4565C00712059 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 58EC538828D4565C00712059 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 58225B5D28D300D80023A724 /* Project object */;
 }

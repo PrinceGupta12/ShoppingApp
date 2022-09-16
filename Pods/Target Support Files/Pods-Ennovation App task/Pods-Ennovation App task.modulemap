@@ -1,0 +1,6 @@
+framework module Pods_Ennovation_App_task {
+  umbrella header "Pods-Ennovation App task-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "cart.jpeg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
